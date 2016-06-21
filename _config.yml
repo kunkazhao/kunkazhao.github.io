@@ -7,16 +7,14 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 王光东
-  email: jsondream@gmail.com
-  link: http://www.jsondream.com
-  weibo: http://weibo.com/u/1829980775?is_all=1
-  github: http://github.com/wgd12389
+  name: 赵二
+  email: 574098783@qq.com
+  github: http://github.com/kunkazhao
 
 # 站点信息
-title: 王光东的博客 
-description: 王光东的博客
-url: http://www.jsondream.com
+title: 赵二的博客 
+description: 赵二的博客
+url: http://www.zhaoer.me
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
@@ -26,8 +24,8 @@ favicon: http://7xpz5v.com1.z0.glb.clouddn.com/%E5%A4%B4%E5%83%8F.JPEG
 # google analytics 设置
 ga:
   id: UA-54767140-1
-  url: www.jsondream.com
+  url: www.zhaoer.me
 
 # disqus 设置
 disqus:
-  shortname: jsondream
+  shortname: zhaoer
