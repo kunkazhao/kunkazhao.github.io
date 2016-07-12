@@ -9,19 +9,19 @@ description: 学习了Audio标签的使用，记录一下。
 
 ### **标签描述**
 
-	html5增加的音频标签，可以在开始标签和结束标签之间放置文本内容，这样老的浏览器就可以显示出不支持该标签的信息。
+html5增加的音频标签，可以在开始标签和结束标签之间放置文本内容，这样老的浏览器就可以显示出不支持该标签的信息。
 	
 ### **source标签**
 
-	audio 元素允许多个 source 元素。source 元素可以链接不同的音频文件。浏览器将使用第一个可识别的格式：	
+audio 元素允许多个 source 元素。source 元素可以链接不同的音频文件。浏览器将使用第一个可识别的格式：	
 		
-	```
-	<audio controls="controls">
-	 	<source src="/i/song.ogg" type="audio/ogg">
-	 	<source src="/i/song.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
-	</audio>
-	```	
+```
+<audio controls="controls">
+	 <source src="/i/song.ogg" type="audio/ogg">
+	 <source src="/i/song.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+```	
 	
 ### **属性**
 
@@ -37,16 +37,17 @@ description: 学习了Audio标签的使用，记录一下。
 
 1. 可以通过getElementById()来访问 <audio> 元素
 		
-	```
-	var x = document.getElementById("myAudio");
-			
-	```
+```
+var x = document.getElementById("myAudio");
+```
+	
 		
 2. 可以通过使用createElement()方法来创建 <audio> 元素
 		
-	```
-	var x = document.createElement("AUDIO");
-	```	
+```
+var x = document.createElement("AUDIO");
+```	
+
 		
 3. Audio对象属性（常用）
 	
@@ -68,6 +69,7 @@ description: 学习了Audio标签的使用，记录一下。
 	| src  | 设置或返回音频的 src 属性的值 |
 	| volume  | 设置或返回音频的音量 |
 		
+
 4. Audio对象方法（常用）
 	
 	| 属性   | 描述 |
