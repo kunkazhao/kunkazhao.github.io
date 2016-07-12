@@ -7,11 +7,11 @@ keywords: html5
 description: 学习了Audio标签的使用，记录一下。
 ---
 
-### 标签描述
+### **标签描述**
 
 html5增加的音频标签，可以在开始标签和结束标签之间放置文本内容，这样老的浏览器就可以显示出不支持该标签的信息。
 	
-### source标签
+### **source标签**
 
 audio 元素允许多个 source 元素。source 元素可以链接不同的音频文件。浏览器将使用第一个可识别的格式：	
 	
@@ -23,7 +23,7 @@ audio 元素允许多个 source 元素。source 元素可以链接不同的音�
 </audio>
 ```	
 	
-### 属性
+### **属性**
 
 | 属性      | 值     | 描述 |
 | ------------- |:-------------:|:--------|
@@ -33,22 +33,22 @@ audio 元素允许多个 source 元素。source 元素可以链接不同的音�
 | preload | preload | 音频在页面加载时进行加载，预备播放 |
 | src   | url | 播放音频的路径|
 	
-### DOM Audio对象
+### **DOM Audio对象**
 
-- 可以通过getElementById()来访问 <audio> 元素
+1. **可以通过getElementById()来访问 <audio> 元素**
 		
 ```
 var x = document.getElementById("myAudio");
 		
 ```
 		
-- 可以通过使用createElement()方法来创建 <audio> 元素
+2. **可以通过使用createElement()方法来创建 <audio> 元素**
 		
 ```
 var x = document.createElement("AUDIO");
 ```	
 		
-- Audio对象属性（常用）
+-3. **Audio对象属性（常用）**
 	
 | 属性   | 描述 |
 | ------------- |:-------------:|
@@ -68,7 +68,7 @@ var x = document.createElement("AUDIO");
 | src  | 设置或返回音频的 src 属性的值 |
 | volume  | 设置或返回音频的音量 |
 		
-- Audio对象方法（常用）
+4. **Audio对象方法（常用）**
 	
 | 属性   | 描述 |
 | ------------- |:-------------:|
